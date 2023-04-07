@@ -10,5 +10,7 @@ body {
   box-sizing: border-box;
 }
 
-@import "_header.scss";
-@import "_catalog.scss";
+@import "./units/variables";
+@import "./units/mixins";
+@import "./blocks/catalog";
+@import "./blocks/header";
